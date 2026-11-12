@@ -1,0 +1,127 @@
+{
+  "models": {
+    "Logistic regression, 19 features (shipped)": {
+      "accuracy": 0.99,
+      "accuracy_ci": [
+        0.9861,
+        0.9935
+      ],
+      "sensitivity": 0.9652,
+      "specificity": 0.9962,
+      "roc_auc": 0.9992,
+      "cv5_accuracy": 0.9892,
+      "errors": 23,
+      "best_params": {
+        "lr__C": "10",
+        "poly": "PolynomialFeatures(include_bias=False)"
+      },
+      "seconds": 10,
+      "mcnemar_p_vs_shipped": 1.0,
+      "only_shipped_correct": 0,
+      "only_this_correct": 0
+    },
+    "Logistic regression, 36 features": {
+      "accuracy": 0.9891,
+      "accuracy_ci": [
+        0.9843,
+        0.993
+      ],
+      "sensitivity": 0.963,
+      "specificity": 0.9957,
+      "roc_auc": 0.9992,
+      "cv5_accuracy": 0.9888,
+      "errors": 25,
+      "best_params": {
+        "lr__C": "0.1",
+        "poly": "PolynomialFeatures(include_bias=False)"
+      },
+      "seconds": 15,
+      "mcnemar_p_vs_shipped": 0.8318,
+      "only_shipped_correct": 12,
+      "only_this_correct": 10
+    },
+    "SVM (RBF), 36 features": {
+      "accuracy": 0.9896,
+      "accuracy_ci": [
+        0.9852,
+        0.9935
+      ],
+      "sensitivity": 0.9761,
+      "specificity": 0.9929,
+      "roc_auc": 0.9995,
+      "cv5_accuracy": 0.991,
+      "errors": 24,
+      "best_params": {
+        "svm__C": "10",
+        "svm__gamma": "scale"
+      },
+      "seconds": 6,
+      "mcnemar_p_vs_shipped": 1.0,
+      "only_shipped_correct": 13,
+      "only_this_correct": 12
+    },
+    "Random forest, 36 features": {
+      "accuracy": 0.987,
+      "accuracy_ci": [
+        0.9822,
+        0.9909
+      ],
+      "sensitivity": 0.9587,
+      "specificity": 0.994,
+      "roc_auc": 0.9986,
+      "cv5_accuracy": 0.988,
+      "errors": 30,
+      "best_params": {},
+      "seconds": 102,
+      "mcnemar_p_vs_shipped": 0.1892,
+      "only_shipped_correct": 14,
+      "only_this_correct": 7
+    },
+    "Gradient boosting, 19 features": {
+      "accuracy": 0.987,
+      "accuracy_ci": [
+        0.9822,
+        0.9913
+      ],
+      "sensitivity": 0.9543,
+      "specificity": 0.9951,
+      "roc_auc": 0.9989,
+      "cv5_accuracy": 0.9907,
+      "errors": 30,
+      "best_params": {
+        "learning_rate": "0.1",
+        "max_leaf_nodes": "15"
+      },
+      "seconds": 19,
+      "mcnemar_p_vs_shipped": 0.1185,
+      "only_shipped_correct": 11,
+      "only_this_correct": 4
+    },
+    "Gradient boosting, 36 features": {
+      "accuracy": 0.9883,
+      "accuracy_ci": [
+        0.9835,
+        0.9922
+      ],
+      "sensitivity": 0.963,
+      "specificity": 0.9946,
+      "roc_auc": 0.9992,
+      "cv5_accuracy": 0.991,
+      "errors": 27,
+      "best_params": {
+        "learning_rate": "0.1",
+        "max_leaf_nodes": "15"
+      },
+      "seconds": 28,
+      "mcnemar_p_vs_shipped": 0.4545,
+      "only_shipped_correct": 10,
+      "only_this_correct": 6
+    }
+  },
+  "verdict": "Best nonlinear model (SVM (RBF), 36 features) reaches 98.96% vs 99.00% for the shipped logistic regression (-0.04 points, McNemar p = 1.0). The difference is not statistically significant.",
+  "best_nonlinear": "SVM (RBF), 36 features",
+  "gain_points": -0.04,
+  "significant": false,
+  "n_test": 2300,
+  "seed": 0
+}

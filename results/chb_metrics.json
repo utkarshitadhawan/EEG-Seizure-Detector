@@ -1,0 +1,144 @@
+{
+  "patients": [
+    "chb01",
+    "chb02",
+    "chb03",
+    "chb05",
+    "chb07",
+    "chb08",
+    "chb09",
+    "chb10"
+  ],
+  "hours_total": 97.46722222222222,
+  "window_s": 4.0,
+  "step_s": 2.0,
+  "k": 3,
+  "pooled_lopo": {
+    "0.5": {
+      "sens": 0.9473684210526315,
+      "fa_per_h": 7.551256547785296
+    },
+    "0.7": {
+      "sens": 0.9210526315789473,
+      "fa_per_h": 6.309813555554289
+    },
+    "0.8": {
+      "sens": 0.868421052631579,
+      "fa_per_h": 5.8378600213177085
+    },
+    "0.9": {
+      "sens": 0.868421052631579,
+      "fa_per_h": 4.483558575247519
+    },
+    "0.95": {
+      "sens": 0.8157894736842105,
+      "fa_per_h": 2.606004297741121
+    },
+    "0.98": {
+      "sens": 0.7631578947368421,
+      "fa_per_h": 1.1183246789518984
+    },
+    "0.99": {
+      "sens": 0.6052631578947368,
+      "fa_per_h": 0.502733112556358
+    },
+    "0.995": {
+      "sens": 0.5789473684210527,
+      "fa_per_h": 0.29753592375784454
+    },
+    "0.999": {
+      "sens": 0.39473684210526316,
+      "fa_per_h": 0.28727606431791886
+    }
+  },
+  "chosen_thr_det": 0.99,
+  "per_patient": {
+    "chb01": {
+      "hours": 8.995000000000001,
+      "seizures": 6,
+      "at_chosen_thr": {
+        "tp": 1,
+        "nref": 6,
+        "fp": 0
+      },
+      "preictal_auc": 0.5120754433270276
+    },
+    "chb02": {
+      "hours": 5.262777777777778,
+      "seizures": 3,
+      "at_chosen_thr": {
+        "tp": 1,
+        "nref": 3,
+        "fp": 4
+      },
+      "preictal_auc": 0.4573820080796138
+    },
+    "chb03": {
+      "hours": 8.996666666666666,
+      "seizures": 6,
+      "at_chosen_thr": {
+        "tp": 0,
+        "nref": 6,
+        "fp": 1
+      },
+      "preictal_auc": 0.509909830687998
+    },
+    "chb05": {
+      "hours": 7.998333333333333,
+      "seizures": 5,
+      "at_chosen_thr": {
+        "tp": 5,
+        "nref": 5,
+        "fp": 9
+      },
+      "preictal_auc": 0.4168240431755449
+    },
+    "chb07": {
+      "hours": 20.387222222222224,
+      "seizures": 3,
+      "at_chosen_thr": {
+        "tp": 3,
+        "nref": 3,
+        "fp": 3
+      },
+      "preictal_auc": 0.4343103528510033
+    },
+    "chb08": {
+      "hours": 8.001666666666667,
+      "seizures": 5,
+      "at_chosen_thr": {
+        "tp": 5,
+        "nref": 5,
+        "fp": 1
+      },
+      "preictal_auc": 0.607872189987856
+    },
+    "chb09": {
+      "hours": 19.807777777777776,
+      "seizures": 4,
+      "at_chosen_thr": {
+        "tp": 4,
+        "nref": 4,
+        "fp": 17
+      },
+      "preictal_auc": 0.4926868300856113
+    },
+    "chb10": {
+      "hours": 18.017777777777777,
+      "seizures": 6,
+      "at_chosen_thr": {
+        "tp": 4,
+        "nref": 6,
+        "fp": 14
+      },
+      "preictal_auc": 0.5491916742595695
+    }
+  },
+  "preictal": {
+    "enabled_in_app": false,
+    "mean_auc": 0.497531546556778,
+    "thr": 0.7303949536309179,
+    "frac_preictal_windows_above_thr": 0.04776157694445632,
+    "note": "30 min pre-seizure vs interictal; labels are file-local (see README limitations)"
+  }
+}
