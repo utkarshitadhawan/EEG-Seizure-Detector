@@ -1,4 +1,0 @@
-$ /usr/bin/python3 -m pytest -q tests
-# 2026-11-11 21:04:28
-..............                                                           [100%]
-14 passed in 23.94s
