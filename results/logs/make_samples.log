@@ -1,0 +1,12 @@
+$ /usr/bin/python3 -u make_samples.py
+# 2026-11-11 21:08:05
+Using Colab cache for faster access to the 'epileptic-seizure-recognition' dataset.
+demo files verified
+/content/eeg/make_samples.py:114: RuntimeWarning: EDF format requires equal-length data blocks, so 0.16 seconds of edge values were appended to all channels when writing the final block.
+  mne.export.export_raw(f"{IN_DIR}/recording_4channels.edf", raw, fmt="edf", overwrite=True, verbose=False)
+recording_seizure                          -> SEIZURE ACTIVITY DETECTED
+recording_normal                           -> NO SEIZURE DETECTED
+recording_4channels_edf                    -> SEIZURE ACTIVITY DETECTED
+image_4channels_seizure_calibrated         -> SEIZURE ACTIVITY DETECTED IN IMAGE
+image_4channels_normal_calibrated          -> NO SEIZURE DETECTED IN IMAGE
+image_4channels_seizure_UNCALIBRATED       -> NO CONFIDENT SEIZURE - 5 UNCERTAIN WINDOW(S) TO REVIEW
