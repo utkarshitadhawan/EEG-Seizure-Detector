@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "EEG Seizure Detector: explainable, uncertainty-aware seizure screening for EEG recordings and EEG images"
+type: software
+authors:
+  - family-names: "Dhawan"
+    given-names: "Utkarshita"
+version: "1.0.0"
+date-released: "2026-11-11"
+license: MIT
+repository-code: "https://github.com/utkarshitadhawan/eeg-seizure-detector"
+abstract: "Open-source research prototype for screening recorded EEG and EEG images for seizure activity with logistic regression, conformal abstention and per-event explanations. Not a medical device."
+keywords: [EEG, epilepsy, seizure detection, logistic regression, conformal prediction, image digitisation]

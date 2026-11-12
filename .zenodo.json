@@ -1,0 +1,30 @@
+{
+  "title": "EEG Seizure Detector: explainable, uncertainty-aware seizure screening for EEG recordings and EEG images",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "mit",
+  "version": "1.0.0",
+  "language": "eng",
+  "description": "Open-source research prototype for screening pre-recorded EEG (EDF/BDF/CSV/TXT/NPY) and EEG images (PNG/JPG) for seizure activity. Logistic regression with conformal abstention, per-event explanations, image digitisation with optional amplitude calibration, a desktop application with built-in user guide and training evidence, a command-line tool, an experimental multichannel stage and a live-stream demo. Trained models are included. Research prototype - not a medical device.",
+  "creators": [
+    {
+      "name": "Dhawan, Utkarshita"
+    }
+  ],
+  "keywords": [
+    "EEG",
+    "epilepsy",
+    "seizure detection",
+    "machine learning",
+    "logistic regression",
+    "conformal prediction",
+    "explainable AI"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/utkarshitadhawan/eeg-seizure-detector",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}
