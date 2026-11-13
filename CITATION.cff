@@ -8,6 +8,7 @@ authors:
 version: "1.0.0"
 date-released: "2026-11-11"
 license: MIT
+doi: https://doi.org/10.5281/zenodo.24153505
 repository-code: "https://github.com/utkarshitadhawan/eeg-seizure-detector"
 abstract: "Open-source research prototype for screening recorded EEG and EEG images for seizure activity with logistic regression, conformal abstention and per-event explanations. Not a medical device."
 keywords: [EEG, epilepsy, seizure detection, logistic regression, conformal prediction, image digitisation]
